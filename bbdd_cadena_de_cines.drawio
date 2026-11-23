@@ -151,6 +151,18 @@
         <mxCell id="c8" edge="1" parent="1" source="cli" style="endArrow=none;html=1;strokeColor=#5A626E;fontSize=12;labelBackgroundColor=default;defaultLabelBackgroundColor=page;labelPlacement=auto;" target="r_comp" value="(1,N)">
           <mxGeometry relative="1" x="-0.15" as="geometry" />
         </mxCell>
+        <mxCell id="8tblVIewDW5LeMAt1sOo-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;1:N&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="260" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="8tblVIewDW5LeMAt1sOo-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;1:N&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="640" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="8tblVIewDW5LeMAt1sOo-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;N:N&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="905" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="8tblVIewDW5LeMAt1sOo-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;1:N&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="905" y="195" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
