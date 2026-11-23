@@ -1,0 +1,157 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="rLd2iIL0CuwrB3VhtCm4">
+    <mxGraphModel dx="1222" dy="976" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0" adaptiveColors="auto">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;fontSize=20;fontStyle=1;align=left;verticalAlign=middle;" value="Modelo E/R (notación de Chen) - Cadena de cines" vertex="1">
+          <mxGeometry height="30" width="700" x="40" y="5" as="geometry" />
+        </mxCell>
+        <mxCell id="note" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fillColor=#FFF9DB;strokeColor=#E9D58A;fontSize=12;spacing=6;" value="Doble rectángulo: entidad débil · Doble rombo: relación identificadora · Subrayado: clave · Elipse discontinua: clave parcial · (min,max): participación de la entidad" vertex="1">
+          <mxGeometry height="52" width="440" x="40" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="cine" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=light-dark(#EEF4FF,#171C25);strokeColor=#9DB8F2;" value="CINE" vertex="1">
+          <mxGeometry height="50" width="120" x="40" y="305" as="geometry" />
+        </mxCell>
+        <mxCell id="sala" parent="1" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=#F3EEFF;strokeColor=#B9A6F0;" value="SALA" vertex="1">
+          <mxGeometry height="50" width="120" x="420" y="305" as="geometry" />
+        </mxCell>
+        <mxCell id="sesion" parent="1" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=#F3EEFF;strokeColor=#B9A6F0;" value="SESION" vertex="1">
+          <mxGeometry height="50" width="120" x="800" y="305" as="geometry" />
+        </mxCell>
+        <mxCell id="peli" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=light-dark(#EEF4FF,#171C25);strokeColor=#9DB8F2;" value="PELICULA" vertex="1">
+          <mxGeometry height="50" width="120" x="800" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="cli" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=light-dark(#EEF4FF,#171C25);strokeColor=#9DB8F2;" value="CLIENTE" vertex="1">
+          <mxGeometry height="50" width="120" x="800" y="565" as="geometry" />
+        </mxCell>
+        <mxCell id="r_tiene" parent="1" style="rhombus;double=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=light-dark(#FFF0E5,#211906);strokeColor=light-dark(#F0B48A,#624300);" value="tiene" vertex="1">
+          <mxGeometry height="60" width="110" x="235" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="r_seda" parent="1" style="rhombus;double=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=light-dark(#FFF0E5,#211906);strokeColor=light-dark(#F0B48A,#624300);" value="se da en" vertex="1">
+          <mxGeometry height="60" width="110" x="615" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="r_proy" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;fillColor=light-dark(#FFF0E5,#211906);strokeColor=light-dark(#F0B48A,#624300);" value="proyecta" vertex="1">
+          <mxGeometry height="60" width="110" x="805" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="r_comp" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;fillColor=light-dark(#FFF0E5,#211906);strokeColor=light-dark(#F0B48A,#624300);" value="compra" vertex="1">
+          <mxGeometry height="60" width="110" x="805" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="a_cod_cine" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;fontStyle=4;fillColor=light-dark(#FFF9DB,#1A1C1E);strokeColor=light-dark(#E9D58A,#434A54);" value="cod_cine" vertex="1">
+          <mxGeometry height="40" width="110" x="-41" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="a_pob_cine" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;fillColor=light-dark(#FFF9DB,#1A1C1E);strokeColor=light-dark(#E9D58A,#434A54);" value="poblacion" vertex="1">
+          <mxGeometry height="40" width="110" x="125" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="a_nombre" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;fillColor=light-dark(#FFF9DB,#1A1C1E);strokeColor=light-dark(#E9D58A,#434A54);" value="nombre" vertex="1">
+          <mxGeometry height="40" width="110" x="45" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="a_num_sala" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;fontStyle=4;dashed=1;fillColor=light-dark(#FFF9DB,#1A1C1E);strokeColor=light-dark(#E9D58A,#434A54);" value="num_sala" vertex="1">
+          <mxGeometry height="40" width="110" x="370" y="226" as="geometry" />
+        </mxCell>
+        <mxCell id="a_butacas" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;fillColor=light-dark(#FFF9DB,#1A1C1E);strokeColor=light-dark(#E9D58A,#434A54);" value="num_butacas" vertex="1">
+          <mxGeometry height="40" width="110" x="488" y="226" as="geometry" />
+        </mxCell>
+        <mxCell id="a_hora" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;fontStyle=4;dashed=1;fillColor=light-dark(#FFF9DB,#1A1C1E);strokeColor=light-dark(#E9D58A,#434A54);" value="hora" vertex="1">
+          <mxGeometry height="40" width="110" x="965" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="a_precio" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;fillColor=light-dark(#FFF9DB,#1A1C1E);strokeColor=light-dark(#E9D58A,#434A54);" value="precio" vertex="1">
+          <mxGeometry height="40" width="110" x="965" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="a_cod_peli" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;fontStyle=4;fillColor=light-dark(#FFF9DB,#1A1C1E);strokeColor=light-dark(#E9D58A,#434A54);" value="cod_pelicula" vertex="1">
+          <mxGeometry height="40" width="110" x="695" y="-5" as="geometry" />
+        </mxCell>
+        <mxCell id="a_titulo" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;fillColor=light-dark(#FFF9DB,#1A1C1E);strokeColor=light-dark(#E9D58A,#434A54);" value="titulo" vertex="1">
+          <mxGeometry height="40" width="110" x="805" y="-42" as="geometry" />
+        </mxCell>
+        <mxCell id="a_duracion" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;fillColor=light-dark(#FFF9DB,#1A1C1E);strokeColor=light-dark(#E9D58A,#434A54);" value="duracion" vertex="1">
+          <mxGeometry height="40" width="110" x="929" as="geometry" />
+        </mxCell>
+        <mxCell id="a_dni" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;fontStyle=4;fillColor=light-dark(#FFF9DB,#1A1C1E);strokeColor=light-dark(#E9D58A,#434A54);" value="dni" vertex="1">
+          <mxGeometry height="40" width="110" x="875" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="a_pob_cli" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;fillColor=light-dark(#FFF9DB,#1A1C1E);strokeColor=light-dark(#E9D58A,#434A54);" value="poblacion" vertex="1">
+          <mxGeometry height="40" width="110" x="725" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="a_cant" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;fillColor=light-dark(#FFF9DB,#1A1C1E);strokeColor=light-dark(#E9D58A,#434A54);" value="cantidad" vertex="1">
+          <mxGeometry height="40" width="110" x="663" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="a_desde" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;fillColor=light-dark(#FFF9DB,#1A1C1E);strokeColor=light-dark(#E9D58A,#434A54);" value="butaca_desde" vertex="1">
+          <mxGeometry height="40" width="110" x="663" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="a_hasta" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;fillColor=light-dark(#FFF9DB,#1A1C1E);strokeColor=light-dark(#E9D58A,#434A54);" value="butaca_hasta" vertex="1">
+          <mxGeometry height="40" width="110" x="663" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="x1" edge="1" parent="1" source="a_cod_cine" style="endArrow=none;html=1;strokeColor=#8A94A6;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="cine">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x2" edge="1" parent="1" source="a_pob_cine" style="endArrow=none;html=1;strokeColor=#8A94A6;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="cine">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x3" edge="1" parent="1" source="a_nombre" style="endArrow=none;html=1;strokeColor=#8A94A6;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="cine">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x4" edge="1" parent="1" source="a_num_sala" style="endArrow=none;html=1;strokeColor=#8A94A6;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="sala">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x5" edge="1" parent="1" source="a_butacas" style="endArrow=none;html=1;strokeColor=#8A94A6;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="sala">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x6" edge="1" parent="1" source="a_hora" style="endArrow=none;html=1;strokeColor=#8A94A6;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="sesion">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x7" edge="1" parent="1" source="a_precio" style="endArrow=none;html=1;strokeColor=#8A94A6;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="sesion">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x8" edge="1" parent="1" source="a_cod_peli" style="endArrow=none;html=1;strokeColor=#8A94A6;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="peli">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x9" edge="1" parent="1" source="a_titulo" style="endArrow=none;html=1;strokeColor=#8A94A6;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="peli">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x10" edge="1" parent="1" source="a_duracion" style="endArrow=none;html=1;strokeColor=#8A94A6;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="peli">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x11" edge="1" parent="1" source="a_dni" style="endArrow=none;html=1;strokeColor=#8A94A6;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="cli">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x12" edge="1" parent="1" source="a_pob_cli" style="endArrow=none;html=1;strokeColor=#8A94A6;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="cli">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x13" edge="1" parent="1" source="a_cant" style="endArrow=none;html=1;strokeColor=#8A94A6;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="r_comp">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x14" edge="1" parent="1" source="a_desde" style="endArrow=none;html=1;strokeColor=#8A94A6;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="r_comp">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x15" edge="1" parent="1" source="a_hasta" style="endArrow=none;html=1;strokeColor=#8A94A6;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="r_comp">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c1" edge="1" parent="1" source="cine" style="endArrow=none;html=1;strokeColor=#5A626E;fontSize=12;labelBackgroundColor=default;defaultLabelBackgroundColor=page;labelPlacement=auto;" target="r_tiene" value="(1,N)">
+          <mxGeometry relative="1" x="-0.15" as="geometry" />
+        </mxCell>
+        <mxCell id="c2" edge="1" parent="1" source="sala" style="endArrow=none;html=1;strokeColor=#5A626E;fontSize=12;labelBackgroundColor=default;defaultLabelBackgroundColor=page;labelPlacement=auto;" target="r_tiene" value="(1,1)">
+          <mxGeometry relative="1" x="-0.15" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" edge="1" parent="1" source="sala" style="endArrow=none;html=1;strokeColor=#5A626E;fontSize=12;labelBackgroundColor=default;defaultLabelBackgroundColor=page;labelPlacement=auto;" target="r_seda" value="(1,N)">
+          <mxGeometry relative="1" x="-0.15" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" edge="1" parent="1" source="sesion" style="endArrow=none;html=1;strokeColor=#5A626E;fontSize=12;labelBackgroundColor=default;defaultLabelBackgroundColor=page;labelPlacement=auto;" target="r_seda" value="(1,1)">
+          <mxGeometry relative="1" x="-0.15" as="geometry" />
+        </mxCell>
+        <mxCell id="c5" edge="1" parent="1" source="peli" style="endArrow=none;html=1;strokeColor=#5A626E;fontSize=12;labelBackgroundColor=default;defaultLabelBackgroundColor=page;labelPlacement=auto;" target="r_proy" value="(1,N)">
+          <mxGeometry relative="1" x="-0.15" as="geometry" />
+        </mxCell>
+        <mxCell id="c6" edge="1" parent="1" source="sesion" style="endArrow=none;html=1;strokeColor=#5A626E;fontSize=12;labelBackgroundColor=default;defaultLabelBackgroundColor=page;labelPlacement=auto;" target="r_proy" value="(1,1)">
+          <mxGeometry relative="1" x="-0.15" as="geometry" />
+        </mxCell>
+        <mxCell id="c7" edge="1" parent="1" source="sesion" style="endArrow=none;html=1;strokeColor=#5A626E;fontSize=12;labelBackgroundColor=default;defaultLabelBackgroundColor=page;labelPlacement=auto;" target="r_comp" value="(0,N)">
+          <mxGeometry relative="1" x="-0.15" as="geometry" />
+        </mxCell>
+        <mxCell id="c8" edge="1" parent="1" source="cli" style="endArrow=none;html=1;strokeColor=#5A626E;fontSize=12;labelBackgroundColor=default;defaultLabelBackgroundColor=page;labelPlacement=auto;" target="r_comp" value="(1,N)">
+          <mxGeometry relative="1" x="-0.15" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
