@@ -4,9 +4,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="title" parent="1" style="text;html=1;fontSize=20;fontStyle=1;align=left;" value="Modelo Entidad-Relación: Taller de mecánica" vertex="1">
-          <mxGeometry height="30" width="560" x="40" y="20" as="geometry" />
-        </mxCell>
         <mxCell id="emp" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=#EEF4FF;strokeColor=#9DB8F2;" value="EMPLEADO" vertex="1">
           <mxGeometry height="50" width="120" x="240" y="275" as="geometry" />
         </mxCell>
