@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Página-1" id="rLd2iIL0CuwrB3VhtCm4">
-    <mxGraphModel dx="986" dy="815" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0" adaptiveColors="auto">
+    <mxGraphModel dx="1416" dy="1119" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0" adaptiveColors="auto">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,10 +10,10 @@
         <mxCell id="sala" parent="1" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=#F3EEFF;strokeColor=#B9A6F0;" value="SALA" vertex="1">
           <mxGeometry height="50" width="120" x="420" y="305" as="geometry" />
         </mxCell>
-        <mxCell id="sesion" parent="1" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=#F3EEFF;strokeColor=#B9A6F0;" value="SESION" vertex="1">
+        <mxCell id="sesion" parent="1" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=#F3EEFF;strokeColor=#B9A6F0;" value="SESIÓN" vertex="1">
           <mxGeometry height="50" width="120" x="800" y="305" as="geometry" />
         </mxCell>
-        <mxCell id="peli" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=light-dark(#EEF4FF,#171C25);strokeColor=#9DB8F2;" value="PELICULA" vertex="1">
+        <mxCell id="peli" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=light-dark(#EEF4FF,#171C25);strokeColor=#9DB8F2;" value="PELÍCULA" vertex="1">
           <mxGeometry height="50" width="120" x="800" y="65" as="geometry" />
         </mxCell>
         <mxCell id="cli" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=light-dark(#EEF4FF,#171C25);strokeColor=#9DB8F2;" value="CLIENTE" vertex="1">
@@ -34,7 +34,7 @@
         <mxCell id="a_cod_cine" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;fontStyle=4;fillColor=light-dark(#FFF9DB,#1A1C1E);strokeColor=light-dark(#E9D58A,#434A54);" value="codig_cine" vertex="1">
           <mxGeometry height="40" width="110" x="-41" y="380" as="geometry" />
         </mxCell>
-        <mxCell id="a_pob_cine" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;fillColor=light-dark(#FFF9DB,#1A1C1E);strokeColor=light-dark(#E9D58A,#434A54);" value="poblacion" vertex="1">
+        <mxCell id="a_pob_cine" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;fillColor=light-dark(#FFF9DB,#1A1C1E);strokeColor=light-dark(#E9D58A,#434A54);" value="población" vertex="1">
           <mxGeometry height="40" width="110" x="125" y="380" as="geometry" />
         </mxCell>
         <mxCell id="a_nombre" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;fillColor=light-dark(#FFF9DB,#1A1C1E);strokeColor=light-dark(#E9D58A,#434A54);" value="nombre" vertex="1">
@@ -55,16 +55,16 @@
         <mxCell id="a_cod_peli" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;fontStyle=4;fillColor=light-dark(#FFF9DB,#1A1C1E);strokeColor=light-dark(#E9D58A,#434A54);" value="codig_pelicula" vertex="1">
           <mxGeometry height="40" width="110" x="695" y="-5" as="geometry" />
         </mxCell>
-        <mxCell id="a_titulo" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;fillColor=light-dark(#FFF9DB,#1A1C1E);strokeColor=light-dark(#E9D58A,#434A54);" value="titulo" vertex="1">
+        <mxCell id="a_titulo" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;fillColor=light-dark(#FFF9DB,#1A1C1E);strokeColor=light-dark(#E9D58A,#434A54);" value="título" vertex="1">
           <mxGeometry height="40" width="110" x="805" y="-42" as="geometry" />
         </mxCell>
-        <mxCell id="a_duracion" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;fillColor=light-dark(#FFF9DB,#1A1C1E);strokeColor=light-dark(#E9D58A,#434A54);" value="duracion" vertex="1">
+        <mxCell id="a_duracion" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;fillColor=light-dark(#FFF9DB,#1A1C1E);strokeColor=light-dark(#E9D58A,#434A54);" value="duración" vertex="1">
           <mxGeometry height="40" width="110" x="929" as="geometry" />
         </mxCell>
         <mxCell id="a_dni" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;fontStyle=4;fillColor=light-dark(#FFF9DB,#1A1C1E);strokeColor=light-dark(#E9D58A,#434A54);" value="dni" vertex="1">
           <mxGeometry height="40" width="110" x="875" y="650" as="geometry" />
         </mxCell>
-        <mxCell id="a_pob_cli" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;fillColor=light-dark(#FFF9DB,#1A1C1E);strokeColor=light-dark(#E9D58A,#434A54);" value="poblacion" vertex="1">
+        <mxCell id="a_pob_cli" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;fillColor=light-dark(#FFF9DB,#1A1C1E);strokeColor=light-dark(#E9D58A,#434A54);" value="población" vertex="1">
           <mxGeometry height="40" width="110" x="725" y="650" as="geometry" />
         </mxCell>
         <mxCell id="a_cant" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;fillColor=light-dark(#FFF9DB,#1A1C1E);strokeColor=light-dark(#E9D58A,#434A54);" value="cantidad" vertex="1">
