@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Página-1" id="rLd2iIL0CuwrB3VhtCm4">
-    <mxGraphModel dx="1105" dy="899" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0" adaptiveColors="auto">
+    <mxGraphModel dx="1416" dy="1119" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0" adaptiveColors="auto">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -28,7 +28,7 @@
         <mxCell id="r_proy" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;fillColor=light-dark(#FFF0E5,#211906);strokeColor=light-dark(#F0B48A,#624300);" value="proyecta" vertex="1">
           <mxGeometry height="60" width="110" x="805" y="180" as="geometry" />
         </mxCell>
-        <mxCell id="r_comp" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;fillColor=light-dark(#FFF0E5,#211906);strokeColor=light-dark(#F0B48A,#624300);" value="compra" vertex="1">
+        <mxCell id="r_comp" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;fillColor=light-dark(#FFF0E5,#211906);strokeColor=light-dark(#F0B48A,#624300);" value="compra&lt;div&gt;entradas&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="110" x="805" y="420" as="geometry" />
         </mxCell>
         <mxCell id="a_cod_cine" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;fontStyle=4;fillColor=light-dark(#FFF9DB,#1A1C1E);strokeColor=light-dark(#E9D58A,#434A54);" value="codig_cine" vertex="1">
