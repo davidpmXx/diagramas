@@ -1,0 +1,134 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="XrV5HIbf5-kgMHPZIvcp">
+    <mxGraphModel dx="1219" dy="863" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0" adaptiveColors="auto">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t1" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontalStack=0;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=26;collapsible=0;html=1;fontSize=14;fillColor=#EEF4FF;strokeColor=#9DB8F2;" value="CINE" vertex="1">
+          <mxGeometry height="104" width="200" x="40" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="t1r1" parent="t1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;fontStyle=5;" value="PK  cod_cine" vertex="1">
+          <mxGeometry height="26" width="200" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t1r2" parent="t1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;" value="nombre" vertex="1">
+          <mxGeometry height="26" width="200" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="t1r3" parent="t1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;" value="poblacion" vertex="1">
+          <mxGeometry height="26" width="200" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="t2" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontalStack=0;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=26;collapsible=0;html=1;fontSize=14;fillColor=#F3EEFF;strokeColor=#B9A6F0;" value="SALA (entidad débil)" vertex="1">
+          <mxGeometry height="104" width="200" x="400" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="t2r1" parent="t2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;fontStyle=5;" value="PK,FK  cod_cine" vertex="1">
+          <mxGeometry height="26" width="200" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t2r2" parent="t2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;fontStyle=5;" value="PK  num_sala" vertex="1">
+          <mxGeometry height="26" width="200" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="t2r3" parent="t2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;" value="num_butacas" vertex="1">
+          <mxGeometry height="26" width="200" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="t3" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontalStack=0;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=26;collapsible=0;html=1;fontSize=14;fillColor=#EEF4FF;strokeColor=#9DB8F2;" value="PELICULA" vertex="1">
+          <mxGeometry height="104" width="200" x="40" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="t3r1" parent="t3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;fontStyle=5;" value="PK  cod_pelicula" vertex="1">
+          <mxGeometry height="26" width="200" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t3r2" parent="t3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;" value="titulo" vertex="1">
+          <mxGeometry height="26" width="200" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="t3r3" parent="t3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;" value="duracion" vertex="1">
+          <mxGeometry height="26" width="200" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="t4" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontalStack=0;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=26;collapsible=0;html=1;fontSize=14;fillColor=#FFF0E5;strokeColor=#F0B48A;" value="SESION" vertex="1">
+          <mxGeometry height="156" width="200" x="400" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="t4r1" parent="t4" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;fontStyle=5;" value="PK,FK  cod_cine" vertex="1">
+          <mxGeometry height="26" width="200" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t4r2" parent="t4" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;fontStyle=5;" value="PK,FK  num_sala" vertex="1">
+          <mxGeometry height="26" width="200" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="t4r3" parent="t4" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;fontStyle=5;" value="PK  hora" vertex="1">
+          <mxGeometry height="26" width="200" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="t4r4" parent="t4" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;fontStyle=2;" value="FK  cod_pelicula" vertex="1">
+          <mxGeometry height="26" width="200" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="t4r5" parent="t4" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;" value="precio" vertex="1">
+          <mxGeometry height="26" width="200" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="t6" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontalStack=0;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=26;collapsible=0;html=1;fontSize=14;fillColor=#FFF0E5;strokeColor=#F0B48A;" value="COMPRA (entradas)" vertex="1">
+          <mxGeometry height="208" width="200" x="400" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="t6r1" parent="t6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;fontStyle=5;" value="PK,FK  dni" vertex="1">
+          <mxGeometry height="26" width="200" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t6r2" parent="t6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;fontStyle=5;" value="PK,FK  cod_cine" vertex="1">
+          <mxGeometry height="26" width="200" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="t6r3" parent="t6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;fontStyle=5;" value="PK,FK  num_sala" vertex="1">
+          <mxGeometry height="26" width="200" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="t6r4" parent="t6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;fontStyle=5;" value="PK,FK  hora" vertex="1">
+          <mxGeometry height="26" width="200" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="t6r5" parent="t6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;" value="cantidad" vertex="1">
+          <mxGeometry height="26" width="200" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="t6r6" parent="t6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;" value="butaca_desde" vertex="1">
+          <mxGeometry height="26" width="200" y="156" as="geometry" />
+        </mxCell>
+        <mxCell id="t6r7" parent="t6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;" value="butaca_hasta" vertex="1">
+          <mxGeometry height="26" width="200" y="182" as="geometry" />
+        </mxCell>
+        <mxCell id="t5" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontalStack=0;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=26;collapsible=0;html=1;fontSize=14;fillColor=#EEF4FF;strokeColor=#9DB8F2;" value="CLIENTE" vertex="1">
+          <mxGeometry height="78" width="200" x="760" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="t5r1" parent="t5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;fontStyle=5;" value="PK  dni" vertex="1">
+          <mxGeometry height="26" width="200" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t5r2" parent="t5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;" value="poblacion" vertex="1">
+          <mxGeometry height="26" width="200" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="t2r1" style="edgeStyle=orthogonalEdgeStyle;html=1;startArrow=ERoneToMany;endArrow=ERmandOne;strokeColor=#8A94A6;fontColor=#5A626E;labelBackgroundColor=default;defaultLabelBackgroundColor=page;labelPlacement=auto;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;" target="t1r1" value="tiene">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="t4r2" style="edgeStyle=orthogonalEdgeStyle;html=1;startArrow=ERoneToMany;endArrow=ERmandOne;strokeColor=#8A94A6;fontColor=#5A626E;labelBackgroundColor=default;defaultLabelBackgroundColor=page;labelPlacement=auto;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;" target="t2r2" value="se da en">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="616" y="315" />
+              <mxPoint x="616" y="115" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="t4r4" style="edgeStyle=orthogonalEdgeStyle;html=1;startArrow=ERoneToMany;endArrow=ERmandOne;strokeColor=#8A94A6;fontColor=#5A626E;labelBackgroundColor=default;defaultLabelBackgroundColor=page;labelPlacement=auto;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;" target="t3r1" value="proyecta">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="367" />
+              <mxPoint x="320" y="289" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="t6r4" style="edgeStyle=orthogonalEdgeStyle;html=1;startArrow=ERzeroToMany;endArrow=ERmandOne;strokeColor=#8A94A6;fontColor=#5A626E;labelBackgroundColor=default;defaultLabelBackgroundColor=page;labelPlacement=auto;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;" target="t4r3" value="para">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="616" y="597" />
+              <mxPoint x="616" y="341" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="t6r1" style="edgeStyle=orthogonalEdgeStyle;html=1;startArrow=ERoneToMany;endArrow=ERmandOne;strokeColor=#8A94A6;fontColor=#5A626E;labelBackgroundColor=default;defaultLabelBackgroundColor=page;labelPlacement=auto;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;" target="t5r1" value="realiza">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="note" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fillColor=#FFF9DB;strokeColor=#E9D58A;fontSize=12;spacing=6;" value="Leyenda&lt;br&gt;PK subrayada = clave primaria; FK cursiva = clave foránea&lt;br&gt;Azul: entidades fuertes · Morado: entidad débil&lt;br&gt;Naranja: entidades que nacen de una relación (ternaria/N:M)&lt;br&gt;Patas de gallo: || = (1,1) · |&lt; = (1,N) · o&lt; = (0,N)" vertex="1">
+          <mxGeometry height="130" width="280" x="680" y="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
