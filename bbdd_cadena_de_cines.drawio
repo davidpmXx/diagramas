@@ -19,10 +19,10 @@
         <mxCell id="cli" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=light-dark(#EEF4FF,#171C25);strokeColor=#9DB8F2;" value="CLIENTE" vertex="1">
           <mxGeometry height="50" width="120" x="800" y="565" as="geometry" />
         </mxCell>
-        <mxCell id="r_tiene" parent="1" style="rhombus;double=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=light-dark(#FFF0E5,#211906);strokeColor=light-dark(#F0B48A,#624300);" value="tiene" vertex="1">
+        <mxCell id="r_tiene" parent="1" style="rhombus;double=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=light-dark(#FFF0E5,#281B12);strokeColor=light-dark(#F0B48A,#75421E);" value="tiene" vertex="1">
           <mxGeometry height="60" width="110" x="235" y="300" as="geometry" />
         </mxCell>
-        <mxCell id="r_seda" parent="1" style="rhombus;double=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=light-dark(#FFF0E5,#211906);strokeColor=light-dark(#F0B48A,#624300);" value="se da en" vertex="1">
+        <mxCell id="r_seda" parent="1" style="rhombus;double=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=light-dark(#FFF0E5,#281B12);strokeColor=light-dark(#F0B48A,#75421E);" value="proyecta" vertex="1">
           <mxGeometry height="60" width="110" x="615" y="300" as="geometry" />
         </mxCell>
         <mxCell id="r_proy" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;fillColor=light-dark(#FFF0E5,#211906);strokeColor=light-dark(#F0B48A,#624300);" value="proyecta" vertex="1">
