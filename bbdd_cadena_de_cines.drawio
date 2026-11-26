@@ -1,15 +1,9 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Página-1" id="rLd2iIL0CuwrB3VhtCm4">
-    <mxGraphModel dx="1222" dy="976" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0" adaptiveColors="auto">
+    <mxGraphModel dx="1619" dy="1263" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0" adaptiveColors="auto">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="title" parent="1" style="text;html=1;fontSize=20;fontStyle=1;align=left;verticalAlign=middle;" value="Modelo E/R (notación de Chen) - Cadena de cines" vertex="1">
-          <mxGeometry height="30" width="700" x="40" y="5" as="geometry" />
-        </mxCell>
-        <mxCell id="note" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fillColor=#FFF9DB;strokeColor=#E9D58A;fontSize=12;spacing=6;" value="Doble rectángulo: entidad débil · Doble rombo: relación identificadora · Subrayado: clave · Elipse discontinua: clave parcial · (min,max): participación de la entidad" vertex="1">
-          <mxGeometry height="52" width="440" x="40" y="45" as="geometry" />
-        </mxCell>
         <mxCell id="cine" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=light-dark(#EEF4FF,#171C25);strokeColor=#9DB8F2;" value="CINE" vertex="1">
           <mxGeometry height="50" width="120" x="40" y="305" as="geometry" />
         </mxCell>
